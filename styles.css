@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 350px;
+    width: 500px;
+    color: white;
+    background: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    bg
+}
+
+.name{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.cam{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.pod{
+    position: absolute;
+    right: 60px;
+    top: 10px; 
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
